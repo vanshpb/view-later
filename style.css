@@ -1,0 +1,13 @@
+section{
+    height: 400px;
+    width: 700px;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 350px 350px;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid yellow;
+}

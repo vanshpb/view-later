@@ -1,0 +1,13 @@
+article{
+    height: 800px;
+    width:800vw;
+    border: 2px solid aqua;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+}
+div{
+    height: 120px;
+    width: 120px;
+    border: 2px solid red;
+}

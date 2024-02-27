@@ -1,0 +1,52 @@
+aside{
+    height: 500px;
+    width: 700px;
+    border: 2px solid lightblue;
+    display: grid;
+    grid-template-columns: repeat(2,350px);
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: solid rgb(0, 0, 0);
+}
+#one{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: lightpink;
+}
+#one:hover{
+    border: 2px solid lightcoral;
+    background-color: khaki;
+}
+#two{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: navajowhite;
+}
+#two:hover{
+    border: 2px solid lightsalmon;
+    background-color: darkgrey;
+}
+#three{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: lightyellow;
+}
+#three:hover{
+    border: 2px solid lightgreen;
+    background-color: lightblue;
+}
+#four{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: gold;
+}
+#four:hover{
+    border: 2px solid lightcoral;
+    background-color: rosybrown;
+}
